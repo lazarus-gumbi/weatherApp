@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    background:url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(100px);
+}
+
+.search{
+    flex: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.search-field{
+    width: 300px;
+    height: 2.3rem;
+    border: 0;
+    border-radius: 15px 0 0 15px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.search-btn{
+    margin-top: 50px;
+    border:0px;
+    height: 2.3rem;
+    width: 80px;
+    font-size: 1rem;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.search h2{
+    font-size: 4rem;
+    color: whitesmoke;
+}
+
+.search h3{
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+.cities{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: 50px;
+    
+}
+
+.city{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 0px 2px 2px #d4d10ea1;
+}
+.city h2{
+
+    font-size: 3rem;
+}
+
+.city h2 ,h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.circle2{
+    position: absolute;
+    background-color: white;
+    opacity: .2;
+    top: 25%;
+    right: 20%;
+    z-index: -1;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px 10px #ddcf0b;
+
+}
+
+.circle1{
+    position: absolute;
+    background-color: white;
+    opacity: .2;
+    top: 5%;
+    right: 10%;
+    z-index: -1;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 10px 10px #0b9bdd;
+}
+
+.search-btn:hover{
+    cursor: pointer;
+    background-color: rgb(197, 184, 0);
+    color: white;
+}
+
